@@ -19,7 +19,7 @@ def toss_coin(n):
         outcome_no +=1
         if r == 1:
             outcome_1_count += 1
-        mean = outcome_1_count / outcome_nochart.add_rows([mean])
+        mean = outcome_1_count / outcome_no
         chart.add_rows([mean])
         time_sleep(0.05)
         

@@ -13,7 +13,7 @@ def toss_coin(n):
 
     mean = None
     outcome_no = 0
-    outcoe_1_count = 0
+    outcome_1_count = 0
     
     for r in trial_outcomes:
         outcome_no +=1
